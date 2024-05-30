@@ -1,0 +1,4 @@
+/Users/erkan/CLionProjects/hfu_prog/cmake-build-debug/CMakeFiles/hfu_prog.dir
+/Users/erkan/CLionProjects/hfu_prog/cmake-build-debug/CMakeFiles/ex7.1.c.dir
+/Users/erkan/CLionProjects/hfu_prog/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/erkan/CLionProjects/hfu_prog/cmake-build-debug/CMakeFiles/rebuild_cache.dir
