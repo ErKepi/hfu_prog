@@ -1,27 +1,36 @@
+// Uebung 1: Zweierpotenzen
+
 #include <stdio.h>
 #include <math.h>
 
-void zp(int a, int b) {
+void zp(int a, int b)
+{
     //int array[b];
 
-    if (a < 0 || b <= 0 || b < a) {
+    if (a < 0 || b <= 0 || b < a)
+    {
         printf("Fehlerhafte Eingaben!\n");
-    } else {
+    }
+    else
+    {
         //Inner scope
-        int powTwo=0;
+        int powTwo = 0;
         int n = 0;
 
-        while (powTwo <= b) {
+        while (powTwo <= b)
+        {
             powTwo = pow(2, n);
             n++;
-            if (powTwo >= a && powTwo <= b) {
+            if (powTwo >= a && powTwo <= b)
+            {
                 printf("%i ", powTwo);
             }
         }
     }
 }
 
-int main() {
+int main()
+{
     int a, b;
 
     printf("Geben Sie den ersten Wert an: ");

@@ -3,7 +3,7 @@
   <component name="CMakePythonSetting">
     <option name="pythonIntegrationState" value="YES" />
   </component>
-  <component name="CMakeWorkspace" PROJECT_DIR="$PROJECT_DIR$/Programmierung_Tutorium">
+  <component name="CMakeWorkspace" PROJECT_DIR="$PROJECT_DIR$/hfu_prog">
     <contentRoot DIR="$PROJECT_DIR$" />
   </component>
 </project>

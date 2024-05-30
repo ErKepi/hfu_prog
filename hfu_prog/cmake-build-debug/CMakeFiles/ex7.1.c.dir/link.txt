@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/ex7.1.c.dir/Aufgabe_7/ex7.1.c.o -o ex7.1.c  -lm 
