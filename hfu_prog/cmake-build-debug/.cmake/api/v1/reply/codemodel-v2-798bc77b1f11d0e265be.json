@@ -1,0 +1,105 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "hfu_prog",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ex7.1.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex7.1.c-Debug-7a640087b798cc8b94bc.json",
+					"name" : "ex7.1.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ex7.2.2.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex7.2.2.c-Debug-433afaab1594b8c94e92.json",
+					"name" : "ex7.2.2.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ex7.2.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex7.2.c-Debug-8c1097b038f82daa6f17.json",
+					"name" : "ex7.2.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ex7.4.1.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex7.4.1.c-Debug-eeafa95659dcd208c2f1.json",
+					"name" : "ex7.4.1.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ex7.4.2.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex7.4.2.c-Debug-e3843b08ab41b2aedf00.json",
+					"name" : "ex7.4.2.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hfu_prog::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hfu_prog-Debug-a9373810ccfd631fec29.json",
+					"name" : "hfu_prog",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/erkan/CLionProjects/hfu_prog/cmake-build-debug",
+		"source" : "/Users/erkan/CLionProjects/hfu_prog"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
