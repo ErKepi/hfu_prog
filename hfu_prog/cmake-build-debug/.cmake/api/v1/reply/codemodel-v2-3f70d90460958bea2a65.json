@@ -20,7 +20,10 @@
 						2,
 						3,
 						4,
-						5
+						5,
+						6,
+						7,
+						8
 					]
 				}
 			],
@@ -40,7 +43,10 @@
 						2,
 						3,
 						4,
-						5
+						5,
+						6,
+						7,
+						8
 					]
 				}
 			],
@@ -69,6 +75,13 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "ex7.3.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex7.3.c-Debug-3e8e0cf45b32c7cfcd20.json",
+					"name" : "ex7.3.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "ex7.4.1.c::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-ex7.4.1.c-Debug-eeafa95659dcd208c2f1.json",
 					"name" : "ex7.4.1.c",
@@ -79,6 +92,20 @@
 					"id" : "ex7.4.2.c::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-ex7.4.2.c-Debug-e3843b08ab41b2aedf00.json",
 					"name" : "ex7.4.2.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ex7.5.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex7.5.c-Debug-d59576ef353cca363aff.json",
+					"name" : "ex7.5.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ex7.6.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex7.6.c-Debug-76c850a63eda1848bb31.json",
+					"name" : "ex7.6.c",
 					"projectIndex" : 0
 				},
 				{

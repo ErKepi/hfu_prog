@@ -7,9 +7,9 @@ long ggT(long x, long y) {
     if (x == y) {
         return x; //Endekriterium
     } else if (x > y) {
-        return ggT(x - y, y);
+        return ggT(x - y, y); //rekursiver Aufruf
     } else if (x < y) {
-        return ggT(x, y - x);
+        return ggT(x, y - x); //rekursiver Aufruf
     } else {
         printf("Fehler.");
     }
