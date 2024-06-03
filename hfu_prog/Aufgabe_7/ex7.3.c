@@ -28,7 +28,7 @@ int main(int argc, char *argv[]) {
     if (argc != 4)
         return -1;
 
-    char op = argv[1][0];
+    char op = argv[1][0]; //erster Char vom String
     int v1 = atoi(argv[2]);
     int v2 = atoi(argv[3]);
 

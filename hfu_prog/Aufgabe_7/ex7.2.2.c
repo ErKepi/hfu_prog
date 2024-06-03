@@ -6,11 +6,9 @@ int berechne(char op, int v1, int v2) {
     switch (op) {
         case '+':
             return v1 + v2;
-            break;
 
         case '-':
             return v1 - v2;
-            break;
 
         case '/':
             if (v2 == 0) {
@@ -23,7 +21,6 @@ int berechne(char op, int v1, int v2) {
 
         case 'x':
             return v1 * v2;
-            break;
 
         default:
             printf("Fehlerhafte Angaben!");

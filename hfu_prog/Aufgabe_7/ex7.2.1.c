@@ -8,19 +8,15 @@ int berechne(char op, int v1, int v2)
     {
     case '+':
         return v1 + v2;
-        break;
 
     case '-':
         return v1 - v2;
-        break;
 
     case '/':
         return v1 / v2;
-        break;
 
     case 'x':
         return v1 * v2;
-        break;
 
     default:
         return -999;

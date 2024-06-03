@@ -3,35 +3,36 @@
 #include <stdio.h>
 #include <ctype.h>
 
-void stat(const char *s) {
-    int counterChars = 0, counterString = 0, checkSpace = 0, length;
+void stat(const char *s, int *z, int *w) {
+    int zeichen = 0, worte = 0;
 
     for (int i = 0; s[i] != '\0'; i++) {
         if (isspace(s[i]) != 0) {
-        } else { counterChars++; }
+        } else { zeichen++; }
     }
 
     for (int i = 0; s[i] != '\0'; i++) {
         //Wenn an Index i Leerstelle UND index = 0 ist ODER Leerstelle an index i-1
         if (isspace(s[i]) == 0 && (i == 0 || isspace(s[i - 1]))) {
-            counterString++;
+            worte++;
         }
     }
 
-    printf("Anzahl der Zeichen %i\n", counterChars);
-
-    printf("Anzahl der Worte: %i\n", counterString);
+    *z = zeichen;
+    *w = worte;
 }
 
 int main() {
     char s[50];
-    int zeichen, worte;
+    int zeichen = 0, worte = 0;
 
     printf("Geben Sie etwas ein: \n");
     gets(s);
-    printf("%s", s);
 
-    stat(s);
+    stat(s, &zeichen, &worte);
+
+    printf("Anzahl der Worte = %i\n", worte);
+    printf("Anzahl der Zeichen = %i\n", zeichen);
 
     return 0;
 }
