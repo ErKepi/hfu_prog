@@ -36,7 +36,6 @@ int check(char op, int v2) {
         case '-':
         case 'x':
             return 1;
-            break;
         case '/':
             if(v2==0) {
                 return 0;

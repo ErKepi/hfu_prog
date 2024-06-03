@@ -1,5 +1,5 @@
 // Uebung 4: ggT
-// Variante 2: Rekursiv, Beispiel in der Folie, Seute 153
+// Variante 2: Rekursiv, Beispiel in der Folie, Seite 153
 
 #include <stdio.h>
 

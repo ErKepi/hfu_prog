@@ -14,7 +14,7 @@ int berechne(char op, int v1, int v2) {
             return v1 * v2;
         case '/':
             if (v2 == 0) {
-                printf("Durch Null kann nicht geteilt werden!");
+                printf("Durch Null kann nicht geteilt werden!\n");
                 return -999;
             } else {
                 return v1 / v2;
