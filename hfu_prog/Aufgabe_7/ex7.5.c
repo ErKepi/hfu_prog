@@ -5,14 +5,12 @@
 #include <string.h>
 
 void stat(const char *s) {
-    int counterChars = 0, counterString = 0, checkSpace = 0, length;
+    int counterChars = 0, counterString = 0;
 
     for (int i = 0; s[i] != '\0'; i++) {
         if (isspace(s[i]) != 0) {
         } else { counterChars++; }
     }
-
-    length = strlen(s);
 
     for (int i = 0; s[i] != '\0'; i++) {
         //Wenn an Index i Leerstelle UND index = 0 ist ODER Leerstelle an index i-1
@@ -31,7 +29,6 @@ void stat(const char *s) {
     //             counterString++;
     //             checkSpace = 1;
     //}
-
 
     printf("Anzahl der Zeichen %i\n", counterChars);
 

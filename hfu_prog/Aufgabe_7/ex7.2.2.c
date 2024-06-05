@@ -27,6 +27,8 @@ int berechne(char op, int v1, int v2) {
     }
 }
 
+//Funktion fuer eine check-Variable, die 1 fuer 'gueltig'
+//und 0 fuer ungueltig zurueckgibt
 int check(char op, int v2) {
     switch (op) {
         case '+':
@@ -62,6 +64,8 @@ int main() {
     // int check2 = check(op);
     printf("check: %i\n", check(op,v2));
 
+    //Wenn check = 0, also ungueltig, dann wird die
+    //Funktion berechne ausgefuehrt, um Default auszugeben
     if (check(op,v2) == 0) {
         berechne(op, v1, v2);
     } else {

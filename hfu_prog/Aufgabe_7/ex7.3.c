@@ -15,22 +15,22 @@ int berechne(char op, int v1, int v2) {
         case '/':
             if (v2 == 0) {
                 printf("Durch Null kann nicht geteilt werden!\n");
-                return -999;
+                return -1;
             } else {
                 return v1 / v2;
             }
         default:
-            return -999;
+            return -1;
     }
 }
 
 int main(int argc, char *argv[]) {
-    if (argc != 4)
+    if (argc != 4) //zu wenige Argumente -> Fehler
         return -1;
 
     char op = argv[1][0]; //erster Char vom String
-    int v1 = atoi(argv[2]);
-    int v2 = atoi(argv[3]);
+    int v1 = atoi(argv[2]);//an dieser Stelle wird v1 eingelesen
+    int v2 = atoi(argv[3]);//hier v2
 
     printf("Ergebnis: %i\n", berechne(op, v1, v2));
 
