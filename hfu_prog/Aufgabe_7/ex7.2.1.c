@@ -2,31 +2,32 @@
 
 #include <stdio.h>
 
-int berechne(char op, int v1, int v2)
-{
-    switch (op)
-    {
-    case '+':
-        return v1 + v2;
+int berechne(char op, int v1, int v2) {
+    switch (op) {
+        case '+':
+            return v1 + v2;
 
-    case '-':
-        return v1 - v2;
+        case '-':
+            return v1 - v2;
 
-    case '/':
-        return v1 / v2;
+        case '/':
+            if (v2 == 0) {
+                return -999;
+            }
 
-    case 'x':
-        return v1 * v2;
+            return v1 / v2;
 
-    default:
-        return -999;
+        case '*':
+            return v1 * v2;
+
+        default:
+            return -999;
     }
 }
 
-int main()
-{
+int main() {
     char op;
-    int v1, v2, check;
+    int v1, v2;
 
     printf("Welchen Operator moechten Sie nutzen?\n");
     scanf("%c", &op);

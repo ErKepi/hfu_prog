@@ -357,6 +357,223 @@ build ex7.2.3.c: C_EXECUTABLE_LINKER__ex7.2e2.2e3.2ec_Debug CMakeFiles/ex7.2.3.c
   TARGET_FILE = ex7.2.3.c
   TARGET_PDB = ex7.2.3.c.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target ex7.3.2.c
+
+
+#############################################
+# Order-only phony target for ex7.3.2.c
+
+build cmake_object_order_depends_target_ex7.3.2.c: phony || CMakeFiles/ex7.3.2.c.dir
+
+build CMakeFiles/ex7.3.2.c.dir/Aufgabe_7/ex7.3.2.c.o: C_COMPILER__ex7.2e3.2e2.2ec_unscanned_Debug /Users/erkan/CLionProjects/hfu_prog/Aufgabe_7/ex7.3.2.c || cmake_object_order_depends_target_ex7.3.2.c
+  DEP_FILE = CMakeFiles/ex7.3.2.c.dir/Aufgabe_7/ex7.3.2.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/ex7.3.2.c.dir
+  OBJECT_FILE_DIR = CMakeFiles/ex7.3.2.c.dir/Aufgabe_7
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ex7.3.2.c
+
+
+#############################################
+# Link the executable ex7.3.2.c
+
+build ex7.3.2.c: C_EXECUTABLE_LINKER__ex7.2e3.2e2.2ec_Debug CMakeFiles/ex7.3.2.c.dir/Aufgabe_7/ex7.3.2.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
+  OBJECT_DIR = CMakeFiles/ex7.3.2.c.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ex7.3.2.c
+  TARGET_PDB = ex7.3.2.c.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ex8.1.c
+
+
+#############################################
+# Order-only phony target for ex8.1.c
+
+build cmake_object_order_depends_target_ex8.1.c: phony || CMakeFiles/ex8.1.c.dir
+
+build CMakeFiles/ex8.1.c.dir/Aufgabe_8/ex8.1.c.o: C_COMPILER__ex8.2e1.2ec_unscanned_Debug /Users/erkan/CLionProjects/hfu_prog/Aufgabe_8/ex8.1.c || cmake_object_order_depends_target_ex8.1.c
+  DEP_FILE = CMakeFiles/ex8.1.c.dir/Aufgabe_8/ex8.1.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/ex8.1.c.dir
+  OBJECT_FILE_DIR = CMakeFiles/ex8.1.c.dir/Aufgabe_8
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ex8.1.c
+
+
+#############################################
+# Link the executable ex8.1.c
+
+build ex8.1.c: C_EXECUTABLE_LINKER__ex8.2e1.2ec_Debug CMakeFiles/ex8.1.c.dir/Aufgabe_8/ex8.1.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
+  OBJECT_DIR = CMakeFiles/ex8.1.c.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ex8.1.c
+  TARGET_PDB = ex8.1.c.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ex7.1.2.c
+
+
+#############################################
+# Order-only phony target for ex7.1.2.c
+
+build cmake_object_order_depends_target_ex7.1.2.c: phony || CMakeFiles/ex7.1.2.c.dir
+
+build CMakeFiles/ex7.1.2.c.dir/Aufgabe_7/ex7.1.2.c.o: C_COMPILER__ex7.2e1.2e2.2ec_unscanned_Debug /Users/erkan/CLionProjects/hfu_prog/Aufgabe_7/ex7.1.2.c || cmake_object_order_depends_target_ex7.1.2.c
+  DEP_FILE = CMakeFiles/ex7.1.2.c.dir/Aufgabe_7/ex7.1.2.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/ex7.1.2.c.dir
+  OBJECT_FILE_DIR = CMakeFiles/ex7.1.2.c.dir/Aufgabe_7
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ex7.1.2.c
+
+
+#############################################
+# Link the executable ex7.1.2.c
+
+build ex7.1.2.c: C_EXECUTABLE_LINKER__ex7.2e1.2e2.2ec_Debug CMakeFiles/ex7.1.2.c.dir/Aufgabe_7/ex7.1.2.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
+  OBJECT_DIR = CMakeFiles/ex7.1.2.c.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ex7.1.2.c
+  TARGET_PDB = ex7.1.2.c.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ex8.2.c
+
+
+#############################################
+# Order-only phony target for ex8.2.c
+
+build cmake_object_order_depends_target_ex8.2.c: phony || CMakeFiles/ex8.2.c.dir
+
+build CMakeFiles/ex8.2.c.dir/Aufgabe_8/ex8.2.c.o: C_COMPILER__ex8.2e2.2ec_unscanned_Debug /Users/erkan/CLionProjects/hfu_prog/Aufgabe_8/ex8.2.c || cmake_object_order_depends_target_ex8.2.c
+  DEP_FILE = CMakeFiles/ex8.2.c.dir/Aufgabe_8/ex8.2.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/ex8.2.c.dir
+  OBJECT_FILE_DIR = CMakeFiles/ex8.2.c.dir/Aufgabe_8
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ex8.2.c
+
+
+#############################################
+# Link the executable ex8.2.c
+
+build ex8.2.c: C_EXECUTABLE_LINKER__ex8.2e2.2ec_Debug CMakeFiles/ex8.2.c.dir/Aufgabe_8/ex8.2.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
+  OBJECT_DIR = CMakeFiles/ex8.2.c.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ex8.2.c
+  TARGET_PDB = ex8.2.c.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ex8.3.c
+
+
+#############################################
+# Order-only phony target for ex8.3.c
+
+build cmake_object_order_depends_target_ex8.3.c: phony || CMakeFiles/ex8.3.c.dir
+
+build CMakeFiles/ex8.3.c.dir/Aufgabe_8/ex8.3.c.o: C_COMPILER__ex8.2e3.2ec_unscanned_Debug /Users/erkan/CLionProjects/hfu_prog/Aufgabe_8/ex8.3.c || cmake_object_order_depends_target_ex8.3.c
+  DEP_FILE = CMakeFiles/ex8.3.c.dir/Aufgabe_8/ex8.3.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/ex8.3.c.dir
+  OBJECT_FILE_DIR = CMakeFiles/ex8.3.c.dir/Aufgabe_8
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ex8.3.c
+
+
+#############################################
+# Link the executable ex8.3.c
+
+build ex8.3.c: C_EXECUTABLE_LINKER__ex8.2e3.2ec_Debug CMakeFiles/ex8.3.c.dir/Aufgabe_8/ex8.3.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
+  OBJECT_DIR = CMakeFiles/ex8.3.c.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ex8.3.c
+  TARGET_PDB = ex8.3.c.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ex8.4.c
+
+
+#############################################
+# Order-only phony target for ex8.4.c
+
+build cmake_object_order_depends_target_ex8.4.c: phony || CMakeFiles/ex8.4.c.dir
+
+build CMakeFiles/ex8.4.c.dir/Aufgabe_8/ex8.4.cpp.o: CXX_COMPILER__ex8.2e4.2ec_unscanned_Debug /Users/erkan/CLionProjects/hfu_prog/Aufgabe_8/ex8.4.cpp || cmake_object_order_depends_target_ex8.4.c
+  DEP_FILE = CMakeFiles/ex8.4.c.dir/Aufgabe_8/ex8.4.cpp.o.d
+  FLAGS = -g -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/ex8.4.c.dir
+  OBJECT_FILE_DIR = CMakeFiles/ex8.4.c.dir/Aufgabe_8
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ex8.4.c
+
+
+#############################################
+# Link the executable ex8.4.c
+
+build ex8.4.c: CXX_EXECUTABLE_LINKER__ex8.2e4.2ec_Debug CMakeFiles/ex8.4.c.dir/Aufgabe_8/ex8.4.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
+  OBJECT_DIR = CMakeFiles/ex8.4.c.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ex8.4.c
+  TARGET_PDB = ex8.4.c.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ex8.5.c
+
+
+#############################################
+# Order-only phony target for ex8.5.c
+
+build cmake_object_order_depends_target_ex8.5.c: phony || CMakeFiles/ex8.5.c.dir
+
+build CMakeFiles/ex8.5.c.dir/Aufgabe_8/ex8.5.c.o: C_COMPILER__ex8.2e5.2ec_unscanned_Debug /Users/erkan/CLionProjects/hfu_prog/Aufgabe_8/ex8.5.c || cmake_object_order_depends_target_ex8.5.c
+  DEP_FILE = CMakeFiles/ex8.5.c.dir/Aufgabe_8/ex8.5.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/ex8.5.c.dir
+  OBJECT_FILE_DIR = CMakeFiles/ex8.5.c.dir/Aufgabe_8
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ex8.5.c
+
+
+#############################################
+# Link the executable ex8.5.c
+
+build ex8.5.c: C_EXECUTABLE_LINKER__ex8.2e5.2ec_Debug CMakeFiles/ex8.5.c.dir/Aufgabe_8/ex8.5.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
+  OBJECT_DIR = CMakeFiles/ex8.5.c.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ex8.5.c
+  TARGET_PDB = ex8.5.c.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -391,7 +608,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/erkan/CLionProjects/hfu_prog/cmake-build-debug
 
-build all: phony hfu_prog ex7.1.c ex7.2.c ex7.2.2.c ex7.4.1.c ex7.4.2.c ex7.5.c ex7.6.c ex7.3.c ex7.2.3.c
+build all: phony hfu_prog ex7.1.c ex7.2.c ex7.2.2.c ex7.4.1.c ex7.4.2.c ex7.5.c ex7.6.c ex7.3.c ex7.2.3.c ex7.3.2.c ex8.1.c ex7.1.2.c ex8.2.c ex8.3.c ex8.4.c ex8.5.c
 
 # =============================================================================
 # Built-in targets
@@ -400,14 +617,14 @@ build all: phony hfu_prog ex7.1.c ex7.2.c ex7.2.2.c ex7.4.1.c ex7.4.2.c ex7.5.c 
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /Users/erkan/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeCInformation.cmake /Users/erkan/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake /Users/erkan/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake /Users/erkan/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake /Users/erkan/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake /Users/erkan/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake /Users/erkan/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake /Users/erkan/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/AppleClang-C.cmake /Users/erkan/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Users/erkan/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/Clang.cmake /Users/erkan/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/GNU.cmake /Users/erkan/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Apple-AppleClang-C.cmake /Users/erkan/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Apple-Clang-C.cmake /Users/erkan/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Apple-Clang.cmake /Users/erkan/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Darwin-Initialize.cmake /Users/erkan/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Darwin.cmake /Users/erkan/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/UnixPaths.cmake /Users/erkan/CLionProjects/hfu_prog/CMakeLists.txt CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /Users/erkan/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeCInformation.cmake /Users/erkan/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake /Users/erkan/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake /Users/erkan/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake /Users/erkan/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake /Users/erkan/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake /Users/erkan/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake /Users/erkan/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake /Users/erkan/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/AppleClang-C.cmake /Users/erkan/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/AppleClang-CXX.cmake /Users/erkan/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Users/erkan/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/Clang.cmake /Users/erkan/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/GNU.cmake /Users/erkan/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Apple-AppleClang-C.cmake /Users/erkan/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Apple-AppleClang-CXX.cmake /Users/erkan/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Apple-Clang-C.cmake /Users/erkan/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Apple-Clang-CXX.cmake /Users/erkan/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Apple-Clang.cmake /Users/erkan/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Darwin-Initialize.cmake /Users/erkan/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Darwin.cmake /Users/erkan/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/UnixPaths.cmake /Users/erkan/CLionProjects/hfu_prog/CMakeLists.txt CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /Users/erkan/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeCInformation.cmake /Users/erkan/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake /Users/erkan/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake /Users/erkan/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake /Users/erkan/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake /Users/erkan/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake /Users/erkan/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake /Users/erkan/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/AppleClang-C.cmake /Users/erkan/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Users/erkan/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/Clang.cmake /Users/erkan/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/GNU.cmake /Users/erkan/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Apple-AppleClang-C.cmake /Users/erkan/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Apple-Clang-C.cmake /Users/erkan/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Apple-Clang.cmake /Users/erkan/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Darwin-Initialize.cmake /Users/erkan/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Darwin.cmake /Users/erkan/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/UnixPaths.cmake /Users/erkan/CLionProjects/hfu_prog/CMakeLists.txt CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake: phony
+build /Users/erkan/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeCInformation.cmake /Users/erkan/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake /Users/erkan/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake /Users/erkan/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake /Users/erkan/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake /Users/erkan/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake /Users/erkan/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake /Users/erkan/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake /Users/erkan/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/AppleClang-C.cmake /Users/erkan/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/AppleClang-CXX.cmake /Users/erkan/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Users/erkan/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/Clang.cmake /Users/erkan/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/GNU.cmake /Users/erkan/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Apple-AppleClang-C.cmake /Users/erkan/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Apple-AppleClang-CXX.cmake /Users/erkan/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Apple-Clang-C.cmake /Users/erkan/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Apple-Clang-CXX.cmake /Users/erkan/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Apple-Clang.cmake /Users/erkan/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Darwin-Initialize.cmake /Users/erkan/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Darwin.cmake /Users/erkan/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/UnixPaths.cmake /Users/erkan/CLionProjects/hfu_prog/CMakeLists.txt CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake: phony
 
 
 #############################################

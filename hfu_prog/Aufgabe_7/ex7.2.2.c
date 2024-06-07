@@ -19,7 +19,7 @@ int berechne(char op, int v1, int v2) {
 
             break;
 
-        case 'x':
+        case '*':
             return v1 * v2;
 
         default:
@@ -33,7 +33,7 @@ int check(char op, int v2) {
     switch (op) {
         case '+':
         case '-':
-        case 'x':
+        case '*':
             return 1;
         case '/':
             if(v2==0) {

@@ -24,6 +24,7 @@ int berechne(char op, int v1, int v2) {
     }
 }
 
+//argc = Argument count
 int main(int argc, char *argv[]) {
     if (argc != 4) //zu wenige Argumente -> Fehler
         return -1;

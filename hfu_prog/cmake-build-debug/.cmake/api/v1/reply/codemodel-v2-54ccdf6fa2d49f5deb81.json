@@ -1,0 +1,204 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "hfu_prog",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ex7.1.2.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex7.1.2.c-Debug-9eba9c76c49b07216fc7.json",
+					"name" : "ex7.1.2.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ex7.1.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex7.1.c-Debug-660ee4cd99a4e343fa5a.json",
+					"name" : "ex7.1.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ex7.2.2.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex7.2.2.c-Debug-580112d5375b6cfd1dde.json",
+					"name" : "ex7.2.2.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ex7.2.3.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex7.2.3.c-Debug-fdc2bfd7e8db1f3153e3.json",
+					"name" : "ex7.2.3.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ex7.2.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex7.2.c-Debug-b126737aab692186d0d6.json",
+					"name" : "ex7.2.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ex7.3.2.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex7.3.2.c-Debug-e47dc828a70dcec529cc.json",
+					"name" : "ex7.3.2.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ex7.3.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex7.3.c-Debug-c5cba247753f25ca8dfa.json",
+					"name" : "ex7.3.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ex7.4.1.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex7.4.1.c-Debug-7362473f45aa070ad884.json",
+					"name" : "ex7.4.1.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ex7.4.2.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex7.4.2.c-Debug-85d4e852fe9fc8ea2be4.json",
+					"name" : "ex7.4.2.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ex7.5.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex7.5.c-Debug-a02670e086d796f84e99.json",
+					"name" : "ex7.5.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ex7.6.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex7.6.c-Debug-23b493c3c93608b816fd.json",
+					"name" : "ex7.6.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ex8.1.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex8.1.c-Debug-3758720adc0b36940323.json",
+					"name" : "ex8.1.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ex8.2.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex8.2.c-Debug-e475d515ccec712c3293.json",
+					"name" : "ex8.2.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ex8.3.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex8.3.c-Debug-e9dea81664cf1b9285cd.json",
+					"name" : "ex8.3.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ex8.4.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex8.4.c-Debug-7fbc83700986ac156a50.json",
+					"name" : "ex8.4.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ex8.5.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex8.5.c-Debug-57f34f40a796c809aa7b.json",
+					"name" : "ex8.5.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hfu_prog::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hfu_prog-Debug-abbd744e2379f6af09b1.json",
+					"name" : "hfu_prog",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/erkan/CLionProjects/hfu_prog/cmake-build-debug",
+		"source" : "/Users/erkan/CLionProjects/hfu_prog"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
