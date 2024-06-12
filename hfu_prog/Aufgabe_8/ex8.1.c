@@ -3,43 +3,49 @@
 #include <stdbool.h>
 #include <stdio.h>
 
-// Ziel: Eingabe des x-Wert und boolische Ausgabe
+// Ziel: Eingabe des x-Werts und boolische Ausgabe
+
+// Rauskopiert aus Blatt 4 und entsprechend angepasst:
+double heron(int x) {
+    double a, anWert = 1;
+
+    for (int i = 0; i <= 10; i++) {
+        // Normalerweise x= [..], aber fuer die Aufgabe mit a getauscht
+        a = (anWert + (x / anWert)) / 2;
+        anWert = a;
+    }
+    //printf("%f\n", anWert);
+
+    return a;
+}
+
 bool prim(int x) {
-
-    bool check =1
-
-    if(x<=0) {
-        printf("Falsche Eingabe");
-        return false;
-    }
-    if (x==1) {
-        printf("1 ist keine Primzahl\n");
-        return false;
-    }
-    if (x>=2) {
-        if (x/x==1 && x/1 == x) {
-            printf("%i ist eine Primzahl\n", x);
-            return true;
-        }
-        printf("%i ist keine Primzahl\n", x);
-    }
-    // if (x / x == 1 && x / 1 == x) {
-    //     return true;
+    // if (x == 0 || x == 1) {
+    //     return false;
     // }
-    // return false;
 
+    if (x<=1)
+        return false;
+
+    for (int y = 2; y <= heron(x); y+=2) {
+        if (x % y == 0) { // x glatt teilbar durch y -> keine Primzahl
+            return false;
+        }
+    }
+    return true;
 }
 
 int main() {
-    int x, y;
+    int x;
 
     printf("Geben Sie einen Wert fuer x ein: \n");
-    scanf("%i\n", x);
+    scanf("%i", &x);
 
-    // if(prim(x)) {
-    //     printf("%i ist eine Primzahl\n", x);
-    // }
-    // printf("%i ist keine Primzahl\n", x);
+    if (prim(x) == true) {
+        printf("Primzahl");
+    } else {
+        printf("Keine Primzahl");
+    }
 
     prim(x);
 }

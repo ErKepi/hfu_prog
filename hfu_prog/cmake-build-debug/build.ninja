@@ -574,6 +574,37 @@ build ex8.5.c: C_EXECUTABLE_LINKER__ex8.2e5.2ec_Debug CMakeFiles/ex8.5.c.dir/Auf
   TARGET_FILE = ex8.5.c
   TARGET_PDB = ex8.5.c.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target ex8.6.cpp
+
+
+#############################################
+# Order-only phony target for ex8.6.cpp
+
+build cmake_object_order_depends_target_ex8.6.cpp: phony || CMakeFiles/ex8.6.cpp.dir
+
+build CMakeFiles/ex8.6.cpp.dir/Aufgabe_8/ex8.6.cpp.o: CXX_COMPILER__ex8.2e6.2ecpp_unscanned_Debug /Users/erkan/CLionProjects/hfu_prog/Aufgabe_8/ex8.6.cpp || cmake_object_order_depends_target_ex8.6.cpp
+  DEP_FILE = CMakeFiles/ex8.6.cpp.dir/Aufgabe_8/ex8.6.cpp.o.d
+  FLAGS = -g -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/ex8.6.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/ex8.6.cpp.dir/Aufgabe_8
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ex8.6.cpp
+
+
+#############################################
+# Link the executable ex8.6.cpp
+
+build ex8.6.cpp: CXX_EXECUTABLE_LINKER__ex8.2e6.2ecpp_Debug CMakeFiles/ex8.6.cpp.dir/Aufgabe_8/ex8.6.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
+  OBJECT_DIR = CMakeFiles/ex8.6.cpp.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ex8.6.cpp
+  TARGET_PDB = ex8.6.cpp.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -608,7 +639,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/erkan/CLionProjects/hfu_prog/cmake-build-debug
 
-build all: phony hfu_prog ex7.1.c ex7.2.c ex7.2.2.c ex7.4.1.c ex7.4.2.c ex7.5.c ex7.6.c ex7.3.c ex7.2.3.c ex7.3.2.c ex8.1.c ex7.1.2.c ex8.2.c ex8.3.c ex8.4.c ex8.5.c
+build all: phony hfu_prog ex7.1.c ex7.2.c ex7.2.2.c ex7.4.1.c ex7.4.2.c ex7.5.c ex7.6.c ex7.3.c ex7.2.3.c ex7.3.2.c ex8.1.c ex7.1.2.c ex8.2.c ex8.3.c ex8.4.c ex8.5.c ex8.6.cpp
 
 # =============================================================================
 # Built-in targets

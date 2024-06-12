@@ -31,7 +31,8 @@
 						13,
 						14,
 						15,
-						16
+						16,
+						17
 					]
 				}
 			],
@@ -62,7 +63,8 @@
 						13,
 						14,
 						15,
-						16
+						16,
+						17
 					]
 				}
 			],
@@ -178,6 +180,13 @@
 					"id" : "ex8.5.c::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-ex8.5.c-Debug-57f34f40a796c809aa7b.json",
 					"name" : "ex8.5.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ex8.6.cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex8.6.cpp-Debug-5747dff358622ffcaf80.json",
+					"name" : "ex8.6.cpp",
 					"projectIndex" : 0
 				},
 				{
