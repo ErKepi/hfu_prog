@@ -1,34 +1,26 @@
 // Uebung 1: Primzahlen
-// mit Heron-Verfahren
+// ohne Heron-Verfahren
 #include <stdbool.h>
 #include <stdio.h>
 
 // Ziel: Eingabe des x-Werts und boolische Ausgabe
 
-// Rauskopiert aus Blatt 4 und entsprechend angepasst:
-double heron(int x) {
-    double a, anWert = 1;
-
-    for (int i = 0; i <= 10; i++) {
-        // Normalerweise x= [..], aber fuer die Aufgabe mit a getauscht
-        a = (anWert + (x / anWert)) / 2;
-        anWert = a;
-    }
-    //printf("%f\n", anWert);
-
-    return a;
-}
-
 bool prim(int x) {
     // if (x == 0 || x == 1) {
     //     return false;
-    // }
 
-    if (x<=1)
+    if (x <= 1) // Abfangen von 1, 0 und negativen Zahlen
         return false;
 
-    for (int y = 2; y <= heron(x); y++) {
-        if (x % y == 0) { // x glatt teilbar durch y -> keine Primzahl
+    if (x == 2)
+        return true;
+
+    if (x % 2 == 0) // Auschliessen von geraden Zahlen
+        return false;
+
+    for (int y = 3; y < x; y += 2) {
+        if (x % y == 0) {
+            // x glatt teilbar durch y -> keine Primzahl
             return false;
         }
     }

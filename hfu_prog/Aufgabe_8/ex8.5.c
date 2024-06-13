@@ -37,15 +37,13 @@
 // }
 
 int vorkommen(const char *s, const char *m) {
-    int slen = 0, mlen = 0, counter = 0, i = 0, j = 0;
+    int mlen = 0, counter = 0, i = 0, j = 0;
 
 
-    while (s[i] != '\0') {
-        slen++;
-        i++;
-    }
-
-    i = 0;
+    // while (s[i] != '\0') {
+    //     slen++;
+    //     i++;
+    // }
 
     while (m[i] != '\0') {
         mlen++;
@@ -54,7 +52,7 @@ int vorkommen(const char *s, const char *m) {
 
     // Outer Loop: geht Schritt fuer Schritt durch den String s
     for (i = 0; s[i] != '\0'; i++) {
-        // Inner Loop
+        // Inner Loop: Vergleich von m an Index j und s an Index i + j
         for (j = 0; j < mlen; j++) {
             if (m[j] != s[i + j]) {
                 break; //beendet die Schleife, hier: Inner Loop, j wird auf 0 zurueckgesetzt

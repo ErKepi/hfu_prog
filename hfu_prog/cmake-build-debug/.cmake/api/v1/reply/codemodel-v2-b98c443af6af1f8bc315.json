@@ -32,7 +32,11 @@
 						14,
 						15,
 						16,
-						17
+						17,
+						18,
+						19,
+						20,
+						21
 					]
 				}
 			],
@@ -64,7 +68,11 @@
 						14,
 						15,
 						16,
-						17
+						17,
+						18,
+						19,
+						20,
+						21
 					]
 				}
 			],
@@ -149,6 +157,13 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "ex8.1.2.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex8.1.2.c-Debug-c289a7bf72a2ec2011d2.json",
+					"name" : "ex8.1.2.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "ex8.1.c::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-ex8.1.c-Debug-3758720adc0b36940323.json",
 					"name" : "ex8.1.c",
@@ -187,6 +202,27 @@
 					"id" : "ex8.6.cpp::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-ex8.6.cpp-Debug-5747dff358622ffcaf80.json",
 					"name" : "ex8.6.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ex9.1.cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex9.1.cpp-Debug-f0cb20bcba7bd28c4dc3.json",
+					"name" : "ex9.1.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ex9.2.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex9.2.c-Debug-d91ddce93a1493d4693e.json",
+					"name" : "ex9.2.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ex9.2.cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex9.2.cpp-Debug-cd824ed2ef68fb6dad21.json",
+					"name" : "ex9.2.cpp",
 					"projectIndex" : 0
 				},
 				{

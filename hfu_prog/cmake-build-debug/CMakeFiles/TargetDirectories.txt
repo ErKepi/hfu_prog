@@ -16,5 +16,9 @@
 /Users/erkan/CLionProjects/hfu_prog/cmake-build-debug/CMakeFiles/ex8.4.c.dir
 /Users/erkan/CLionProjects/hfu_prog/cmake-build-debug/CMakeFiles/ex8.5.c.dir
 /Users/erkan/CLionProjects/hfu_prog/cmake-build-debug/CMakeFiles/ex8.6.cpp.dir
+/Users/erkan/CLionProjects/hfu_prog/cmake-build-debug/CMakeFiles/ex8.1.2.c.dir
+/Users/erkan/CLionProjects/hfu_prog/cmake-build-debug/CMakeFiles/ex9.1.cpp.dir
+/Users/erkan/CLionProjects/hfu_prog/cmake-build-debug/CMakeFiles/ex9.2.cpp.dir
+/Users/erkan/CLionProjects/hfu_prog/cmake-build-debug/CMakeFiles/ex9.2.c.dir
 /Users/erkan/CLionProjects/hfu_prog/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/erkan/CLionProjects/hfu_prog/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -605,6 +605,130 @@ build ex8.6.cpp: CXX_EXECUTABLE_LINKER__ex8.2e6.2ecpp_Debug CMakeFiles/ex8.6.cpp
   TARGET_FILE = ex8.6.cpp
   TARGET_PDB = ex8.6.cpp.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target ex8.1.2.c
+
+
+#############################################
+# Order-only phony target for ex8.1.2.c
+
+build cmake_object_order_depends_target_ex8.1.2.c: phony || CMakeFiles/ex8.1.2.c.dir
+
+build CMakeFiles/ex8.1.2.c.dir/Aufgabe_8/ex8.1.2.c.o: C_COMPILER__ex8.2e1.2e2.2ec_unscanned_Debug /Users/erkan/CLionProjects/hfu_prog/Aufgabe_8/ex8.1.2.c || cmake_object_order_depends_target_ex8.1.2.c
+  DEP_FILE = CMakeFiles/ex8.1.2.c.dir/Aufgabe_8/ex8.1.2.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/ex8.1.2.c.dir
+  OBJECT_FILE_DIR = CMakeFiles/ex8.1.2.c.dir/Aufgabe_8
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ex8.1.2.c
+
+
+#############################################
+# Link the executable ex8.1.2.c
+
+build ex8.1.2.c: C_EXECUTABLE_LINKER__ex8.2e1.2e2.2ec_Debug CMakeFiles/ex8.1.2.c.dir/Aufgabe_8/ex8.1.2.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
+  OBJECT_DIR = CMakeFiles/ex8.1.2.c.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ex8.1.2.c
+  TARGET_PDB = ex8.1.2.c.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ex9.1.cpp
+
+
+#############################################
+# Order-only phony target for ex9.1.cpp
+
+build cmake_object_order_depends_target_ex9.1.cpp: phony || CMakeFiles/ex9.1.cpp.dir
+
+build CMakeFiles/ex9.1.cpp.dir/Aufgabe_9/ex9.1.cpp.o: CXX_COMPILER__ex9.2e1.2ecpp_unscanned_Debug /Users/erkan/CLionProjects/hfu_prog/Aufgabe_9/ex9.1.cpp || cmake_object_order_depends_target_ex9.1.cpp
+  DEP_FILE = CMakeFiles/ex9.1.cpp.dir/Aufgabe_9/ex9.1.cpp.o.d
+  FLAGS = -g -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/ex9.1.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/ex9.1.cpp.dir/Aufgabe_9
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ex9.1.cpp
+
+
+#############################################
+# Link the executable ex9.1.cpp
+
+build ex9.1.cpp: CXX_EXECUTABLE_LINKER__ex9.2e1.2ecpp_Debug CMakeFiles/ex9.1.cpp.dir/Aufgabe_9/ex9.1.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
+  OBJECT_DIR = CMakeFiles/ex9.1.cpp.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ex9.1.cpp
+  TARGET_PDB = ex9.1.cpp.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ex9.2.cpp
+
+
+#############################################
+# Order-only phony target for ex9.2.cpp
+
+build cmake_object_order_depends_target_ex9.2.cpp: phony || CMakeFiles/ex9.2.cpp.dir
+
+build CMakeFiles/ex9.2.cpp.dir/Aufgabe_9/ex9.2.cpp.o: CXX_COMPILER__ex9.2e2.2ecpp_unscanned_Debug /Users/erkan/CLionProjects/hfu_prog/Aufgabe_9/ex9.2.cpp || cmake_object_order_depends_target_ex9.2.cpp
+  DEP_FILE = CMakeFiles/ex9.2.cpp.dir/Aufgabe_9/ex9.2.cpp.o.d
+  FLAGS = -g -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/ex9.2.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/ex9.2.cpp.dir/Aufgabe_9
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ex9.2.cpp
+
+
+#############################################
+# Link the executable ex9.2.cpp
+
+build ex9.2.cpp: CXX_EXECUTABLE_LINKER__ex9.2e2.2ecpp_Debug CMakeFiles/ex9.2.cpp.dir/Aufgabe_9/ex9.2.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
+  OBJECT_DIR = CMakeFiles/ex9.2.cpp.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ex9.2.cpp
+  TARGET_PDB = ex9.2.cpp.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ex9.2.c
+
+
+#############################################
+# Order-only phony target for ex9.2.c
+
+build cmake_object_order_depends_target_ex9.2.c: phony || CMakeFiles/ex9.2.c.dir
+
+build CMakeFiles/ex9.2.c.dir/Aufgabe_9/ex9.2.c.o: C_COMPILER__ex9.2e2.2ec_unscanned_Debug /Users/erkan/CLionProjects/hfu_prog/Aufgabe_9/ex9.2.c || cmake_object_order_depends_target_ex9.2.c
+  DEP_FILE = CMakeFiles/ex9.2.c.dir/Aufgabe_9/ex9.2.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/ex9.2.c.dir
+  OBJECT_FILE_DIR = CMakeFiles/ex9.2.c.dir/Aufgabe_9
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ex9.2.c
+
+
+#############################################
+# Link the executable ex9.2.c
+
+build ex9.2.c: C_EXECUTABLE_LINKER__ex9.2e2.2ec_Debug CMakeFiles/ex9.2.c.dir/Aufgabe_9/ex9.2.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
+  OBJECT_DIR = CMakeFiles/ex9.2.c.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ex9.2.c
+  TARGET_PDB = ex9.2.c.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -639,7 +763,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/erkan/CLionProjects/hfu_prog/cmake-build-debug
 
-build all: phony hfu_prog ex7.1.c ex7.2.c ex7.2.2.c ex7.4.1.c ex7.4.2.c ex7.5.c ex7.6.c ex7.3.c ex7.2.3.c ex7.3.2.c ex8.1.c ex7.1.2.c ex8.2.c ex8.3.c ex8.4.c ex8.5.c ex8.6.cpp
+build all: phony hfu_prog ex7.1.c ex7.2.c ex7.2.2.c ex7.4.1.c ex7.4.2.c ex7.5.c ex7.6.c ex7.3.c ex7.2.3.c ex7.3.2.c ex8.1.c ex7.1.2.c ex8.2.c ex8.3.c ex8.4.c ex8.5.c ex8.6.cpp ex8.1.2.c ex9.1.cpp ex9.2.cpp ex9.2.c
 
 # =============================================================================
 # Built-in targets

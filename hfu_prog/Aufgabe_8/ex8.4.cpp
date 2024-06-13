@@ -12,22 +12,31 @@ struct Datum {
     int jahr;
 };
 
-const char* monatString[] = {
+// Pointer, der auf 'enum monat varMonat' zeigt
+const char *monatString[] = {
     " ", "Januar", "Februar", "Maerz", "April", "Mai", "Juni", "Juli", "August", "September",
     "Oktober", "November", "Dezember"
 };
 
 // Variante 1:
+// Uebergabe durch Wert -> Kopie des Arguments, bzw. Variable, wird uebergeben
+// Originalargument bleibt unveraendert
 void druckeDatumV1(Datum d) {
     printf("V1: %i. %s %i\n", d.tag, monatString[d.varMonat], d.jahr);
 }
 
 // Variante 2
+// Uebergabe durch Referenz (C++)
+// Nimmt Veraenderungen am Original vor
 void druckeDatumV2(Datum &d) {
     printf("V2: %i. %s %i\n", d.tag, monatString[d.varMonat], d.jahr);
 }
 
 // Variante 3
+// Uebergabe durch Zeiger
+// Effizient
+// Kann zu einer ungueltigen Adresse zeigen -> NULL
+// Pfeil '->' notwendig
 void druckeDatumV3(Datum *d) {
     printf("V3: %i. %s %i\n", d->tag, monatString[d->varMonat], d->jahr);
 }
@@ -41,4 +50,3 @@ int main() {
 
     return 0;
 }
-

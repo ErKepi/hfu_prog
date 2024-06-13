@@ -16,6 +16,7 @@ struct Datum {
 // };
 
 bool bevor(const Datum& a, const Datum& b) {
+
     if (a.jahr == b.jahr) {
         if (a.varMonat<b.varMonat)
             return true;
@@ -28,6 +29,8 @@ bool bevor(const Datum& a, const Datum& b) {
 
     if (a.jahr<b.jahr)
         return true;
+
+    // Alles in ein if-else zu packen, ist eleganter
 
     // //if (a.jahr==b.jahr&&a.varMonat==b.varMonat&&a.tag==b.tag)
     //     printf("Beide Angaben gleichen sich.\n");
