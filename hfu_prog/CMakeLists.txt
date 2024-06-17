@@ -36,5 +36,12 @@ add_executable(ex8.5.c Aufgabe_8/ex8.5.c)
 add_executable(ex8.6.cpp Aufgabe_8/ex8.6.cpp)
 add_executable(ex8.1.2.c Aufgabe_8/ex8.1.2.c)
 add_executable(ex9.1.cpp Aufgabe_9/ex9.1.cpp)
-add_executable(ex9.2.cpp Aufgabe_9/ex9.2.cpp)
-add_executable(ex9.2.c Aufgabe_9/ex9.2.c)
+#add_executable(ex9.2.cpp Aufgabe_9/ex9.2.cpp)
+#add_executable(ex9.2.c Aufgabe_9/ex9.2.c)
+add_executable(main.cpp Aufgabe_9/ex9.2/main.cpp
+        Aufgabe_9/ex9.2/stack.cpp
+        Aufgabe_9/ex9.2/stack.h)
+add_executable(ex9.4_main Aufgabe_9/ex9.4/ex9.4_main.cpp)
+add_executable(ex9.4_main.cpp Aufgabe_9/ex9.4/ex9.4_main.cpp
+        Aufgabe_9/ex9.4/stack2.cpp
+        Aufgabe_9/ex9.4/stack2.h)
