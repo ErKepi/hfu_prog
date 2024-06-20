@@ -1,56 +1,9 @@
-// Uebung 2: Ausgeglichene Klammerung
+// Uebung 2-6: Ausgeglichene Klammerung
 // Main-Datei
 // hier werden die Funktionen der Klasse aufgerufen
 #include <cstdio>
-//#include <stack>
+#include "stack.h"
 
-#include "stack2.h"
-
-// bool bracketsBalanced(char *input, Stack &s) {
-//     for (int i = 0; input[i] != '\0'; i++) {
-//         if (input[i] == '{' || input[i] == '[' || input[i] == '(') {
-//             s.push(input[i]);
-//         } else if (input[i] == '}' || input[i] == ']' || input[i] == ')') {
-//             if (s.empty()) {
-//                 printf("Klammern schliessen sich nicht korrekt.\n");
-//                 return false;
-//             }
-//             char topChar = s.top();
-//             if ((topChar == '{' && input[i] == '}') || (topChar == '[' && input[i] == ']') || (
-//                     topChar == '(' && input[i] == ')')) {
-//                 s.pop();
-//             } else {
-//                 return false;
-//             }
-//         } else {
-//
-//         }
-//     }
-//     if(s.empty()==false) {
-//         return false;
-//     }
-//
-//     return true;
-// }
-//
-//
-// int main() {
-//     Stack s;
-//     char input[100];
-//     printf("String von Klammern eingeben: \n");
-//     scanf("%s", input);
-//
-//     if (bracketsBalanced(input, s)) {
-//         printf("Die Ausklammerung ist ausgewogen.\n");
-//     } else {
-//         printf("Klammerung unausgewogen.\n");
-//     }
-//
-//     return 0;
-// }
-
-
-// Neuversuch
 
 bool klammerungAusgewogen(const char *input, Stack& s) // Stack wird referenziert
 {
@@ -67,6 +20,7 @@ bool klammerungAusgewogen(const char *input, Stack& s) // Stack wird referenzier
             if (s.empty()) // Wenn nach dem Check der oeffnenden Klammern keine gefunden wurde,
                             //ist der Stack leer und kann nicht weiter geprueft werden mit deren Counterpart -> false
             {
+                printf("Fehler - Es konnte zu der schliessenden Klammer kein passendes Gegenstueck auf dem Stack gefunden werden.\n");
                 return false;
             }
 

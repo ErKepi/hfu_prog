@@ -772,6 +772,210 @@ build ex9.4_main.cpp: CXX_EXECUTABLE_LINKER__ex9.2e4_main.2ecpp_Debug CMakeFiles
   TARGET_FILE = ex9.4_main.cpp
   TARGET_PDB = ex9.4_main.cpp.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 9.1_vektoren.cpp
+
+
+#############################################
+# Order-only phony target for 9.1_vektoren.cpp
+
+build cmake_object_order_depends_target_9.1_vektoren.cpp: phony || CMakeFiles/9.1_vektoren.cpp.dir
+
+build CMakeFiles/9.1_vektoren.cpp.dir/Aufgabe_9_v2/9.1_vektoren.cpp.o: CXX_COMPILER__9.2e1_vektoren.2ecpp_unscanned_Debug /Users/erkan/CLionProjects/hfu_prog/Aufgabe_9_v2/9.1_vektoren.cpp || cmake_object_order_depends_target_9.1_vektoren.cpp
+  DEP_FILE = CMakeFiles/9.1_vektoren.cpp.dir/Aufgabe_9_v2/9.1_vektoren.cpp.o.d
+  FLAGS = -g -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/9.1_vektoren.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/9.1_vektoren.cpp.dir/Aufgabe_9_v2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 9.1_vektoren.cpp
+
+
+#############################################
+# Link the executable 9.1_vektoren.cpp
+
+build 9.1_vektoren.cpp: CXX_EXECUTABLE_LINKER__9.2e1_vektoren.2ecpp_Debug CMakeFiles/9.1_vektoren.cpp.dir/Aufgabe_9_v2/9.1_vektoren.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
+  OBJECT_DIR = CMakeFiles/9.1_vektoren.cpp.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 9.1_vektoren.cpp
+  TARGET_PDB = 9.1_vektoren.cpp.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target main_stack.cpp
+
+
+#############################################
+# Order-only phony target for main_stack.cpp
+
+build cmake_object_order_depends_target_main_stack.cpp: phony || CMakeFiles/main_stack.cpp.dir
+
+build CMakeFiles/main_stack.cpp.dir/Aufgabe_9_v2/main_stack.cpp.o: CXX_COMPILER__main_stack.2ecpp_unscanned_Debug /Users/erkan/CLionProjects/hfu_prog/Aufgabe_9_v2/main_stack.cpp || cmake_object_order_depends_target_main_stack.cpp
+  DEP_FILE = CMakeFiles/main_stack.cpp.dir/Aufgabe_9_v2/main_stack.cpp.o.d
+  FLAGS = -g -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/main_stack.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/main_stack.cpp.dir/Aufgabe_9_v2
+
+build CMakeFiles/main_stack.cpp.dir/Aufgabe_9_v2/stack.cpp.o: CXX_COMPILER__main_stack.2ecpp_unscanned_Debug /Users/erkan/CLionProjects/hfu_prog/Aufgabe_9_v2/stack.cpp || cmake_object_order_depends_target_main_stack.cpp
+  DEP_FILE = CMakeFiles/main_stack.cpp.dir/Aufgabe_9_v2/stack.cpp.o.d
+  FLAGS = -g -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/main_stack.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/main_stack.cpp.dir/Aufgabe_9_v2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target main_stack.cpp
+
+
+#############################################
+# Link the executable main_stack.cpp
+
+build main_stack.cpp: CXX_EXECUTABLE_LINKER__main_stack.2ecpp_Debug CMakeFiles/main_stack.cpp.dir/Aufgabe_9_v2/main_stack.cpp.o CMakeFiles/main_stack.cpp.dir/Aufgabe_9_v2/stack.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
+  OBJECT_DIR = CMakeFiles/main_stack.cpp.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = main_stack.cpp
+  TARGET_PDB = main_stack.cpp.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target klammerung.cpp
+
+
+#############################################
+# Order-only phony target for klammerung.cpp
+
+build cmake_object_order_depends_target_klammerung.cpp: phony || CMakeFiles/klammerung.cpp.dir
+
+build CMakeFiles/klammerung.cpp.dir/Aufgabe_9_v2/klammerung.cpp.o: CXX_COMPILER__klammerung.2ecpp_unscanned_Debug /Users/erkan/CLionProjects/hfu_prog/Aufgabe_9_v2/klammerung.cpp || cmake_object_order_depends_target_klammerung.cpp
+  DEP_FILE = CMakeFiles/klammerung.cpp.dir/Aufgabe_9_v2/klammerung.cpp.o.d
+  FLAGS = -g -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/klammerung.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/klammerung.cpp.dir/Aufgabe_9_v2
+
+build CMakeFiles/klammerung.cpp.dir/Aufgabe_9_v2/stack.cpp.o: CXX_COMPILER__klammerung.2ecpp_unscanned_Debug /Users/erkan/CLionProjects/hfu_prog/Aufgabe_9_v2/stack.cpp || cmake_object_order_depends_target_klammerung.cpp
+  DEP_FILE = CMakeFiles/klammerung.cpp.dir/Aufgabe_9_v2/stack.cpp.o.d
+  FLAGS = -g -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/klammerung.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/klammerung.cpp.dir/Aufgabe_9_v2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target klammerung.cpp
+
+
+#############################################
+# Link the executable klammerung.cpp
+
+build klammerung.cpp: CXX_EXECUTABLE_LINKER__klammerung.2ecpp_Debug CMakeFiles/klammerung.cpp.dir/Aufgabe_9_v2/klammerung.cpp.o CMakeFiles/klammerung.cpp.dir/Aufgabe_9_v2/stack.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
+  OBJECT_DIR = CMakeFiles/klammerung.cpp.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = klammerung.cpp
+  TARGET_PDB = klammerung.cpp.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ex10.1_Personendatenbank.cpp
+
+
+#############################################
+# Order-only phony target for ex10.1_Personendatenbank.cpp
+
+build cmake_object_order_depends_target_ex10.1_Personendatenbank.cpp: phony || CMakeFiles/ex10.1_Personendatenbank.cpp.dir
+
+build CMakeFiles/ex10.1_Personendatenbank.cpp.dir/Aufgabe_10/ex10.1_Personendatenbank.cpp.o: CXX_COMPILER__ex10.2e1_Personendatenbank.2ecpp_unscanned_Debug /Users/erkan/CLionProjects/hfu_prog/Aufgabe_10/ex10.1_Personendatenbank.cpp || cmake_object_order_depends_target_ex10.1_Personendatenbank.cpp
+  DEP_FILE = CMakeFiles/ex10.1_Personendatenbank.cpp.dir/Aufgabe_10/ex10.1_Personendatenbank.cpp.o.d
+  FLAGS = -g -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/ex10.1_Personendatenbank.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/ex10.1_Personendatenbank.cpp.dir/Aufgabe_10
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ex10.1_Personendatenbank.cpp
+
+
+#############################################
+# Link the executable ex10.1_Personendatenbank.cpp
+
+build ex10.1_Personendatenbank.cpp: CXX_EXECUTABLE_LINKER__ex10.2e1_Personendatenbank.2ecpp_Debug CMakeFiles/ex10.1_Personendatenbank.cpp.dir/Aufgabe_10/ex10.1_Personendatenbank.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
+  OBJECT_DIR = CMakeFiles/ex10.1_Personendatenbank.cpp.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ex10.1_Personendatenbank.cpp
+  TARGET_PDB = ex10.1_Personendatenbank.cpp.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ex10.2_Bubblesort
+
+
+#############################################
+# Order-only phony target for ex10.2_Bubblesort
+
+build cmake_object_order_depends_target_ex10.2_Bubblesort: phony || CMakeFiles/ex10.2_Bubblesort.dir
+
+build CMakeFiles/ex10.2_Bubblesort.dir/Aufgabe_10/ex10.2_Bubblesort.cpp.o: CXX_COMPILER__ex10.2e2_Bubblesort_unscanned_Debug /Users/erkan/CLionProjects/hfu_prog/Aufgabe_10/ex10.2_Bubblesort.cpp || cmake_object_order_depends_target_ex10.2_Bubblesort
+  DEP_FILE = CMakeFiles/ex10.2_Bubblesort.dir/Aufgabe_10/ex10.2_Bubblesort.cpp.o.d
+  FLAGS = -g -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/ex10.2_Bubblesort.dir
+  OBJECT_FILE_DIR = CMakeFiles/ex10.2_Bubblesort.dir/Aufgabe_10
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ex10.2_Bubblesort
+
+
+#############################################
+# Link the executable ex10.2_Bubblesort
+
+build ex10.2_Bubblesort: CXX_EXECUTABLE_LINKER__ex10.2e2_Bubblesort_Debug CMakeFiles/ex10.2_Bubblesort.dir/Aufgabe_10/ex10.2_Bubblesort.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
+  OBJECT_DIR = CMakeFiles/ex10.2_Bubblesort.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ex10.2_Bubblesort
+  TARGET_PDB = ex10.2_Bubblesort.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ex10.6_main.cpp
+
+
+#############################################
+# Order-only phony target for ex10.6_main.cpp
+
+build cmake_object_order_depends_target_ex10.6_main.cpp: phony || CMakeFiles/ex10.6_main.cpp.dir
+
+build CMakeFiles/ex10.6_main.cpp.dir/Aufgabe_10/ex10.6_main.cpp.o: CXX_COMPILER__ex10.2e6_main.2ecpp_unscanned_Debug /Users/erkan/CLionProjects/hfu_prog/Aufgabe_10/ex10.6_main.cpp || cmake_object_order_depends_target_ex10.6_main.cpp
+  DEP_FILE = CMakeFiles/ex10.6_main.cpp.dir/Aufgabe_10/ex10.6_main.cpp.o.d
+  FLAGS = -g -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/ex10.6_main.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/ex10.6_main.cpp.dir/Aufgabe_10
+
+build CMakeFiles/ex10.6_main.cpp.dir/Aufgabe_10/safeArray.cpp.o: CXX_COMPILER__ex10.2e6_main.2ecpp_unscanned_Debug /Users/erkan/CLionProjects/hfu_prog/Aufgabe_10/safeArray.cpp || cmake_object_order_depends_target_ex10.6_main.cpp
+  DEP_FILE = CMakeFiles/ex10.6_main.cpp.dir/Aufgabe_10/safeArray.cpp.o.d
+  FLAGS = -g -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/ex10.6_main.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/ex10.6_main.cpp.dir/Aufgabe_10
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ex10.6_main.cpp
+
+
+#############################################
+# Link the executable ex10.6_main.cpp
+
+build ex10.6_main.cpp: CXX_EXECUTABLE_LINKER__ex10.2e6_main.2ecpp_Debug CMakeFiles/ex10.6_main.cpp.dir/Aufgabe_10/ex10.6_main.cpp.o CMakeFiles/ex10.6_main.cpp.dir/Aufgabe_10/safeArray.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
+  OBJECT_DIR = CMakeFiles/ex10.6_main.cpp.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ex10.6_main.cpp
+  TARGET_PDB = ex10.6_main.cpp.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -806,7 +1010,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/erkan/CLionProjects/hfu_prog/cmake-build-debug
 
-build all: phony hfu_prog ex7.1.c ex7.2.c ex7.2.2.c ex7.4.1.c ex7.4.2.c ex7.5.c ex7.6.c ex7.3.c ex7.2.3.c ex7.3.2.c ex8.1.c ex7.1.2.c ex8.2.c ex8.3.c ex8.4.c ex8.5.c ex8.6.cpp ex8.1.2.c ex9.1.cpp main.cpp ex9.4_main ex9.4_main.cpp
+build all: phony hfu_prog ex7.1.c ex7.2.c ex7.2.2.c ex7.4.1.c ex7.4.2.c ex7.5.c ex7.6.c ex7.3.c ex7.2.3.c ex7.3.2.c ex8.1.c ex7.1.2.c ex8.2.c ex8.3.c ex8.4.c ex8.5.c ex8.6.cpp ex8.1.2.c ex9.1.cpp main.cpp ex9.4_main ex9.4_main.cpp 9.1_vektoren.cpp main_stack.cpp klammerung.cpp ex10.1_Personendatenbank.cpp ex10.2_Bubblesort ex10.6_main.cpp
 
 # =============================================================================
 # Built-in targets

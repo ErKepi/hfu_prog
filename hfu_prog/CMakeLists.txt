@@ -45,3 +45,14 @@ add_executable(ex9.4_main Aufgabe_9/ex9.4/ex9.4_main.cpp)
 add_executable(ex9.4_main.cpp Aufgabe_9/ex9.4/ex9.4_main.cpp
         Aufgabe_9/ex9.4/stack2.cpp
         Aufgabe_9/ex9.4/stack2.h)
+add_executable(9.1_vektoren.cpp Aufgabe_9_v2/9.1_vektoren.cpp)
+add_executable(main_stack.cpp Aufgabe_9_v2/main_stack.cpp
+        Aufgabe_9_v2/stack.cpp)
+add_executable(klammerung.cpp Aufgabe_9_v2/klammerung.cpp
+        Aufgabe_9_v2/stack.cpp)
+add_executable(ex10.1_Personendatenbank.cpp Aufgabe_10/ex10.1_Personendatenbank.cpp)
+add_executable(ex10.2_Bubblesort Aufgabe_10/ex10.2_Bubblesort.cpp)
+
+add_executable(ex10.6_main.cpp Aufgabe_10/ex10.6_main.cpp
+        Aufgabe_10/safeArray.h
+        Aufgabe_10/safeArray.cpp)

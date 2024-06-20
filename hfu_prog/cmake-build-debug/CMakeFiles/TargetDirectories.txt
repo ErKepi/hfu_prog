@@ -21,5 +21,11 @@
 /Users/erkan/CLionProjects/hfu_prog/cmake-build-debug/CMakeFiles/main.cpp.dir
 /Users/erkan/CLionProjects/hfu_prog/cmake-build-debug/CMakeFiles/ex9.4_main.dir
 /Users/erkan/CLionProjects/hfu_prog/cmake-build-debug/CMakeFiles/ex9.4_main.cpp.dir
+/Users/erkan/CLionProjects/hfu_prog/cmake-build-debug/CMakeFiles/9.1_vektoren.cpp.dir
+/Users/erkan/CLionProjects/hfu_prog/cmake-build-debug/CMakeFiles/main_stack.cpp.dir
+/Users/erkan/CLionProjects/hfu_prog/cmake-build-debug/CMakeFiles/klammerung.cpp.dir
+/Users/erkan/CLionProjects/hfu_prog/cmake-build-debug/CMakeFiles/ex10.1_Personendatenbank.cpp.dir
+/Users/erkan/CLionProjects/hfu_prog/cmake-build-debug/CMakeFiles/ex10.2_Bubblesort.dir
+/Users/erkan/CLionProjects/hfu_prog/cmake-build-debug/CMakeFiles/ex10.6_main.cpp.dir
 /Users/erkan/CLionProjects/hfu_prog/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/erkan/CLionProjects/hfu_prog/cmake-build-debug/CMakeFiles/rebuild_cache.dir

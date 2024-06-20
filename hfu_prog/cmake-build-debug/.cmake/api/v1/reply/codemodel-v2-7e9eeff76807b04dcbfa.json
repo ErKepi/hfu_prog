@@ -37,7 +37,13 @@
 						19,
 						20,
 						21,
-						22
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28
 					]
 				}
 			],
@@ -74,12 +80,46 @@
 						19,
 						20,
 						21,
-						22
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28
 					]
 				}
 			],
 			"targets" : 
 			[
+				{
+					"directoryIndex" : 0,
+					"id" : "9.1_vektoren.cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-9.1_vektoren.cpp-Debug-8e4b754aaaaeafea92b0.json",
+					"name" : "9.1_vektoren.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ex10.1_Personendatenbank.cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex10.1_Personendatenbank.cpp-Debug-fdccfbeb434df9ee6f93.json",
+					"name" : "ex10.1_Personendatenbank.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ex10.2_Bubblesort::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex10.2_Bubblesort-Debug-1cfe6107e75019c50b3f.json",
+					"name" : "ex10.2_Bubblesort",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ex10.6_main.cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex10.6_main.cpp-Debug-612e928da464dbb213d4.json",
+					"name" : "ex10.6_main.cpp",
+					"projectIndex" : 0
+				},
 				{
 					"directoryIndex" : 0,
 					"id" : "ex7.1.2.c::@6890427a1f51a3e7e1df",
@@ -236,9 +276,23 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "klammerung.cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-klammerung.cpp-Debug-b796650d3ae7a16c14ad.json",
+					"name" : "klammerung.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "main.cpp::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-main.cpp-Debug-3c45a0451bf8ac38cb25.json",
 					"name" : "main.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "main_stack.cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-main_stack.cpp-Debug-9b2782e0cbba5fe4174d.json",
+					"name" : "main_stack.cpp",
 					"projectIndex" : 0
 				}
 			]
