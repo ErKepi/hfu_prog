@@ -1,6 +1,7 @@
 // Uebungen 3 - 6
 #include <cstdio>
 #include "safeArray.h"
+#include "safeArray.h"
 
 int main() {
 

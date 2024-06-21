@@ -24,7 +24,7 @@ const char *monatString[] = {
 Person personen_arr[5] = {
     {"Einstein", "Albert", 14, Maerz, 1879},
     {"Oppenheimer", "J. Robert", 22, April, 1904},
-    {"Tesla", "Nikola", 10, Juli, 2856},
+    {"Tesla", "Nikola", 10, Juli, 1856},
     {"Newton", "Isaac", 4, Januar, 1643},
     {"Kopernikus", "Nikolaus", 19, Februar, 1473}
 };
@@ -32,7 +32,8 @@ Person personen_arr[5] = {
 void findeGeburtstag(char *name, char *vorname) {
     int check = 0;
     for (int i = 0; i < 5; i++) {
-        if (!strcmp(vorname, personen_arr[i].vorname) && !strcmp(name, personen_arr[i].name)) {
+        //strcmp()==0 heisst, die Strings gleichen sich
+        if (strcmp(vorname, personen_arr[i].vorname)==0 && strcmp(name, personen_arr[i].name)==0) {
             printf("%s %s wurde am %i %s %i geboren.\n", personen_arr[i].vorname, personen_arr[i].name,
                    personen_arr[i].geburtstag.tag, personen_arr[i].geburtstag.varMonat[monatString],
                    personen_arr[i].geburtstag.jahr);

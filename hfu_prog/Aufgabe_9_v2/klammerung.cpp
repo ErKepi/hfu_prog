@@ -5,34 +5,28 @@
 #include "stack.h"
 
 
-bool klammerungAusgewogen(const char *input, Stack& s) // Stack wird referenziert
+bool klammerungAusgewogen(const char *input, Stack &s) // Stack wird referenziert
 {
     char temp;
 
-    for (int i = 0; input[i] != '\0'; i++)
-    {
-        if (input[i] == '(' || input[i] == '[' || input[i] == '{')
-        {
+    for (int i = 0; input[i] != '\0'; i++) {
+        if (input[i] == '(' || input[i] == '[' || input[i] == '{') {
             s.push(input[i]);
-        }
-        else if (input[i] == ')' || input[i] == ']' || input[i] == '}')
-        {
+        } else if (input[i] == ')' || input[i] == ']' || input[i] == '}') {
             if (s.empty()) // Wenn nach dem Check der oeffnenden Klammern keine gefunden wurde,
-                            //ist der Stack leer und kann nicht weiter geprueft werden mit deren Counterpart -> false
+            //ist der Stack leer und kann nicht weiter geprueft werden mit deren Counterpart -> false
             {
-                printf("Fehler - Es konnte zu der schliessenden Klammer kein passendes Gegenstueck auf dem Stack gefunden werden.\n");
+                printf(
+                    "Fehler - Es konnte zu der schliessenden Klammer kein passendes Gegenstueck auf dem Stack gefunden werden.\n");
                 return false;
             }
 
-            temp = s.top();
-            if ((temp == '(' && input[i] == ')') ||
-                (temp == '[' && input[i] == ']') ||
-                (temp == '{' && input[i] == '}'))
-            {
+            //temp = s.top();
+            if ((s.top() == '(' && input[i] == ')') ||
+                (s.top() == '[' && input[i] == ']') ||
+                (s.top() == '{' && input[i] == '}')) {
                 s.pop(); // passende Paare -> pop() -> Stapel wird reduziert
-            }
-            else
-            {
+            } else {
                 return false;
             }
         }

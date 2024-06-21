@@ -3,8 +3,6 @@
 #ifndef SAFEARRAY_H
 #define SAFEARRAY_H
 
-
-
 class safeArray {
 private:
     int array[100];
