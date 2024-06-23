@@ -90,3 +90,9 @@
 150	233	1718882871108588101	klammerung.cpp	91e648df0ca6fd19
 2	136	1718886354591831201	CMakeFiles/ex10.1_Personendatenbank.cpp.dir/Aufgabe_10/ex10.1_Personendatenbank.cpp.o	f7f5644fb15df76d
 136	217	1718886354725888752	ex10.1_Personendatenbank.cpp	3bf4b3446d9b421
+8	166	1718988107308114318	CMakeFiles/ex10.6_main.cpp.dir/Aufgabe_10/ex10.6_main.cpp.o	af16e0214d6f966d
+9	166	1718988107308353067	CMakeFiles/ex10.6_main.cpp.dir/Aufgabe_10/safeArray.cpp.o	b75ea0722318d18d
+166	259	1718988107465560816	ex10.6_main.cpp	8ce553e1dbf26943
+3	185	1718998671330090875	CMakeFiles/klammerung.cpp.dir/Aufgabe_9_v2/klammerung.cpp.o	4103e8d004e4dc21
+4	185	1718998671330467629	CMakeFiles/klammerung.cpp.dir/Aufgabe_9_v2/stack.cpp.o	56fabc93eded3fe8
+185	281	1718998671512089056	klammerung.cpp	91e648df0ca6fd19

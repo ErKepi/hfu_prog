@@ -51,7 +51,7 @@ int safeArray::getMinimum() {
 // true zureuckgeben wenn Indexbereich nicht leer
 // ist (pos1 <= pos2) und im zulaessigen Bereich liegt.
 bool safeArray::fill(unsigned int pos1, unsigned int pos2, int value) {
-    if (pos1 <+ pos2 && pos2 < 100) {
+    if (pos1 <= pos2 && pos2 < 100) {
         for (unsigned int i = pos1; i <= pos2; i++) {
             setAt(i, value);
         }
