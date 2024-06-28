@@ -19,7 +19,7 @@ void sort(int *a, unsigned int n) {
 }
 
 int main() {
-    int array[] = {15, 7, 13, 24, 9, 25};
+    int array[] = {-15, 7, 13, 24, 9, 25};
     sort(&array[0], 6);
     for (int i = 0; i < 6; i++) {
         printf("array[%d] = %d\n", i, array[i]);

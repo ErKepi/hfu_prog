@@ -5,6 +5,8 @@
 #include "stack.h"
 #include <cstdio>
 
+// stack_ waere besser als _stack
+
 // [Klasse]::[Klassenfunktion] (){...}
 
 void Stack::push(char c) {

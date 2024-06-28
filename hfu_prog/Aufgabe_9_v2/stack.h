@@ -4,14 +4,17 @@
 
 #ifndef STACK_H
 #define STACK_H
-#include <cstdio>
 
 class Stack {
 private:
     char _stack[100];
     int _top;
 public:
-    Stack() : _top(0) {} // Konstruktor, der _top initialisiert
+    //Stack() : _top(0) {} // Konstruktor, der _top initialisiert
+    Stack() {
+        _top = 0;  // 2. Moeglichkeit fuer einen Konstruktor
+    }
+    // Lokale Methoden der Klasse
     void push(char c); // char-Wert wird oben auf dem Stapel abgelegt
     char pop(); // entfernt den obersten char-Wert vom Stapel und gibt den Wert zurueck
     char top(); // liefert Wert des obersten char-Werts im Stapel, ohne diesen zu entfernen
@@ -19,6 +22,5 @@ public:
     bool empty(); // Stapel leer --> True
     void clear(); // Stack wird geleert bzw. initialisiert
 };
-
 
 #endif //STACK_H

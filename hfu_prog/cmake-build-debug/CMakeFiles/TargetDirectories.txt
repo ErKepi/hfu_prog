@@ -27,5 +27,6 @@
 /Users/erkan/CLionProjects/hfu_prog/cmake-build-debug/CMakeFiles/ex10.1_Personendatenbank.cpp.dir
 /Users/erkan/CLionProjects/hfu_prog/cmake-build-debug/CMakeFiles/ex10.2_Bubblesort.dir
 /Users/erkan/CLionProjects/hfu_prog/cmake-build-debug/CMakeFiles/ex10.6_main.cpp.dir
+/Users/erkan/CLionProjects/hfu_prog/cmake-build-debug/CMakeFiles/ex11_main.cpp.dir
 /Users/erkan/CLionProjects/hfu_prog/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/erkan/CLionProjects/hfu_prog/cmake-build-debug/CMakeFiles/rebuild_cache.dir

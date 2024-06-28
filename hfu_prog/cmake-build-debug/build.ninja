@@ -976,6 +976,43 @@ build ex10.6_main.cpp: CXX_EXECUTABLE_LINKER__ex10.2e6_main.2ecpp_Debug CMakeFil
   TARGET_FILE = ex10.6_main.cpp
   TARGET_PDB = ex10.6_main.cpp.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target ex11_main.cpp
+
+
+#############################################
+# Order-only phony target for ex11_main.cpp
+
+build cmake_object_order_depends_target_ex11_main.cpp: phony || CMakeFiles/ex11_main.cpp.dir
+
+build CMakeFiles/ex11_main.cpp.dir/Aufgabe_11/ex11_main.cpp.o: CXX_COMPILER__ex11_main.2ecpp_unscanned_Debug /Users/erkan/CLionProjects/hfu_prog/Aufgabe_11/ex11_main.cpp || cmake_object_order_depends_target_ex11_main.cpp
+  DEP_FILE = CMakeFiles/ex11_main.cpp.dir/Aufgabe_11/ex11_main.cpp.o.d
+  FLAGS = -g -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/ex11_main.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/ex11_main.cpp.dir/Aufgabe_11
+
+build CMakeFiles/ex11_main.cpp.dir/Aufgabe_11/ex11_safeArray.cpp.o: CXX_COMPILER__ex11_main.2ecpp_unscanned_Debug /Users/erkan/CLionProjects/hfu_prog/Aufgabe_11/ex11_safeArray.cpp || cmake_object_order_depends_target_ex11_main.cpp
+  DEP_FILE = CMakeFiles/ex11_main.cpp.dir/Aufgabe_11/ex11_safeArray.cpp.o.d
+  FLAGS = -g -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/ex11_main.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/ex11_main.cpp.dir/Aufgabe_11
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ex11_main.cpp
+
+
+#############################################
+# Link the executable ex11_main.cpp
+
+build ex11_main.cpp: CXX_EXECUTABLE_LINKER__ex11_main.2ecpp_Debug CMakeFiles/ex11_main.cpp.dir/Aufgabe_11/ex11_main.cpp.o CMakeFiles/ex11_main.cpp.dir/Aufgabe_11/ex11_safeArray.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
+  OBJECT_DIR = CMakeFiles/ex11_main.cpp.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ex11_main.cpp
+  TARGET_PDB = ex11_main.cpp.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1010,7 +1047,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/erkan/CLionProjects/hfu_prog/cmake-build-debug
 
-build all: phony hfu_prog ex7.1.c ex7.2.c ex7.2.2.c ex7.4.1.c ex7.4.2.c ex7.5.c ex7.6.c ex7.3.c ex7.2.3.c ex7.3.2.c ex8.1.c ex7.1.2.c ex8.2.c ex8.3.c ex8.4.c ex8.5.c ex8.6.cpp ex8.1.2.c ex9.1.cpp main.cpp ex9.4_main ex9.4_main.cpp 9.1_vektoren.cpp main_stack.cpp klammerung.cpp ex10.1_Personendatenbank.cpp ex10.2_Bubblesort ex10.6_main.cpp
+build all: phony hfu_prog ex7.1.c ex7.2.c ex7.2.2.c ex7.4.1.c ex7.4.2.c ex7.5.c ex7.6.c ex7.3.c ex7.2.3.c ex7.3.2.c ex8.1.c ex7.1.2.c ex8.2.c ex8.3.c ex8.4.c ex8.5.c ex8.6.cpp ex8.1.2.c ex9.1.cpp main.cpp ex9.4_main ex9.4_main.cpp 9.1_vektoren.cpp main_stack.cpp klammerung.cpp ex10.1_Personendatenbank.cpp ex10.2_Bubblesort ex10.6_main.cpp ex11_main.cpp
 
 # =============================================================================
 # Built-in targets

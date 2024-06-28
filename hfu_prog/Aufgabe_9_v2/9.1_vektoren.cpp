@@ -40,9 +40,9 @@ Vektor skalierterVektor(float faktor, const Vektor &x) {
 }
 
 int main() {
-    Vektor a = {1, 2};
-    Vektor b = {3, 4};
-    Vektor x = {5, 6};
+    Vektor a = {5, 3};
+    Vektor b = {2, 4};
+    Vektor x = {1, 1};
 
     float faktor = skalarProdukt(a, b);
 

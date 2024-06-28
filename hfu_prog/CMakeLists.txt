@@ -56,3 +56,6 @@ add_executable(ex10.2_Bubblesort Aufgabe_10/ex10.2_Bubblesort.cpp)
 add_executable(ex10.6_main.cpp Aufgabe_10/ex10.6_main.cpp
         Aufgabe_10/safeArray.h
         Aufgabe_10/safeArray.cpp)
+add_executable(ex11_main.cpp Aufgabe_11/ex11_main.cpp
+        Aufgabe_11/ex11_safeArray.cpp
+        Aufgabe_11/ex11_safeArray.h)

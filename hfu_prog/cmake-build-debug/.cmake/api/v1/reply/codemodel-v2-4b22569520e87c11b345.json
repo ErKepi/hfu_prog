@@ -43,7 +43,8 @@
 						25,
 						26,
 						27,
-						28
+						28,
+						29
 					]
 				}
 			],
@@ -86,7 +87,8 @@
 						25,
 						26,
 						27,
-						28
+						28,
+						29
 					]
 				}
 			],
@@ -118,6 +120,13 @@
 					"id" : "ex10.6_main.cpp::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-ex10.6_main.cpp-Debug-612e928da464dbb213d4.json",
 					"name" : "ex10.6_main.cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ex11_main.cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex11_main.cpp-Debug-7c9d9906b59fa573492a.json",
+					"name" : "ex11_main.cpp",
 					"projectIndex" : 0
 				},
 				{

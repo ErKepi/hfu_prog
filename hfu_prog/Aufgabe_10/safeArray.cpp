@@ -17,7 +17,7 @@ bool safeArray::setAt(unsigned int pos, int val) {
 // zurueckgeben, nur wenn pos einen zulaessigen
 // Index fuer das Array darstellt.
 // Ist pos kein zulaessiger Index, soll getAt einen
-// zweckmässigen Standardwert zurueckgeben
+// zweckmaessigen Standardwert zurueckgeben
 int safeArray::getAt(unsigned int pos) {
     if (pos < 100) {
         return array[pos];
@@ -25,12 +25,12 @@ int safeArray::getAt(unsigned int pos) {
     return -1;
 }
 
-// Uebung 4: Konstruktor //
-safeArray::safeArray(int saWert) {
-    for (int i = 0; i < 100; i++) {
-        array[i] = saWert;
-    }
-}
+// Uebung 4: Konstruktor // --> in h.-File verschoben
+// safeArray::safeArray(int saWert) {
+//     for (int i = 0; i < 100; i++) {
+//         array[i] = saWert;
+//     }
+// }
 
 // Uebung 5: Weitere Methoden //
 
@@ -42,20 +42,39 @@ int safeArray::getMinimum() {
             min = array[i];
         }
     }
-
     return min;
 }
 
 // Soll die EIntraege mit Indices (Plural Index)
-// pos1 bis pos2 auf den Wert value setzen, und
+// pos1 BIS pos2 auf den Wert value setzen, und
 // true zureuckgeben wenn Indexbereich nicht leer
 // ist (pos1 <= pos2) und im zulaessigen Bereich liegt.
+// bool safeArray::fill(unsigned int pos1, unsigned int pos2, int value) {
+//     if (pos1 <= pos2) {
+//         for (unsigned int i =n pos1; i <= pos2; i++) {
+//             setAt(i, value);
+//         }
+//         return true;
+//     }
+//     return false;
+// }
+// Verbesserung:
 bool safeArray::fill(unsigned int pos1, unsigned int pos2, int value) {
-    if (pos1 <= pos2 && pos2 < 100) {
-        for (unsigned int i = pos1; i <= pos2; i++) {
-            setAt(i, value);
-        }
-        return true;
+    if (pos1 > pos2 || pos1 >= 100 || pos2 >= 100) {
+        return false;
     }
-    return false;
+    for (unsigned int i = pos1; i <= pos2; i++) {
+        setAt(i, value);
+    }
+    return true;
 }
+
+// Konstruktor
+safeArray::safeArray(int saWert) {
+    for (int i = 0; i < 100; i++) {
+        array[i] = saWert;
+    }
+}
+
+
+// Wenn man einen Konstruktor erstellt wird, soll ein gleichnamiger Destruktor erstellt werden, mit einer Tilde am Anfang
