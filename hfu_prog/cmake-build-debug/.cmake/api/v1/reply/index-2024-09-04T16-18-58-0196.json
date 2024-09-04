@@ -11,31 +11,31 @@
 			"cmake" : "/Users/erkan/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake",
 			"cpack" : "/Users/erkan/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cpack",
 			"ctest" : "/Users/erkan/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/ctest",
-			"root" : "/Users/erkan/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28"
+			"root" : "/Users/erkan/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29"
 		},
 		"version" : 
 		{
 			"isDirty" : false,
 			"major" : 3,
-			"minor" : 28,
-			"patch" : 1,
-			"string" : "3.28.1",
+			"minor" : 29,
+			"patch" : 6,
+			"string" : "3.29.6",
 			"suffix" : ""
 		}
 	},
 	"objects" : 
 	[
 		{
-			"jsonFile" : "codemodel-v2-4b22569520e87c11b345.json",
+			"jsonFile" : "codemodel-v2-007aae71ae22efb904f7.json",
 			"kind" : "codemodel",
 			"version" : 
 			{
 				"major" : 2,
-				"minor" : 6
+				"minor" : 7
 			}
 		},
 		{
-			"jsonFile" : "cache-v2-3e1d1702fcfbf9da1a81.json",
+			"jsonFile" : "cache-v2-3f3c142a2335b1610c42.json",
 			"kind" : "cache",
 			"version" : 
 			{
@@ -44,7 +44,7 @@
 			}
 		},
 		{
-			"jsonFile" : "cmakeFiles-v1-77e78ae4c07ae4df88a3.json",
+			"jsonFile" : "cmakeFiles-v1-70e8d205f2d868256e9d.json",
 			"kind" : "cmakeFiles",
 			"version" : 
 			{
@@ -66,7 +66,7 @@
 	{
 		"cache-v2" : 
 		{
-			"jsonFile" : "cache-v2-3e1d1702fcfbf9da1a81.json",
+			"jsonFile" : "cache-v2-3f3c142a2335b1610c42.json",
 			"kind" : "cache",
 			"version" : 
 			{
@@ -76,7 +76,7 @@
 		},
 		"cmakeFiles-v1" : 
 		{
-			"jsonFile" : "cmakeFiles-v1-77e78ae4c07ae4df88a3.json",
+			"jsonFile" : "cmakeFiles-v1-70e8d205f2d868256e9d.json",
 			"kind" : "cmakeFiles",
 			"version" : 
 			{
@@ -86,12 +86,12 @@
 		},
 		"codemodel-v2" : 
 		{
-			"jsonFile" : "codemodel-v2-4b22569520e87c11b345.json",
+			"jsonFile" : "codemodel-v2-007aae71ae22efb904f7.json",
 			"kind" : "codemodel",
 			"version" : 
 			{
 				"major" : 2,
-				"minor" : 6
+				"minor" : 7
 			}
 		},
 		"toolchains-v1" : 
